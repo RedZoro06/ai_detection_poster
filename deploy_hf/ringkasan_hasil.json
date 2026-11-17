@@ -1,0 +1,24 @@
+{
+  "model": "DenseNet121",
+  "level_fitur": "menengah",
+  "lapisan_potong": "pool3_relu",
+  "ukuran_input": [
+    384,
+    256,
+    3
+  ],
+  "kelas": [
+    "Non-AI",
+    "AI"
+  ],
+  "ambang": 0.5,
+  "akurasi_cv_development": 0.8727517106549365,
+  "auc_cv_development": 0.9463541666666668,
+  "akurasi_test": 0.9,
+  "auc_test": 0.9875,
+  "n_test": 40,
+  "akurasi_out_of_fold": 0.8636363636363636,
+  "auc_out_of_fold": 0.9433673469387754,
+  "akurasi_train": 1.0,
+  "akurasi_validation": 0.9375
+}
