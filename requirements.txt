@@ -1,3 +1,4 @@
+streamlit
 tensorflow-cpu>=2.20
 keras>=3.10
 numpy
